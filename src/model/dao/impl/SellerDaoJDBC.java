@@ -167,7 +167,7 @@ public class SellerDaoJDBC implements SellerDao {
 				}
 				
 				Seller sel = instantiateSeller(rs, dep);  
-				sellers.add(sel);				
+				sellers.add(sel);
 			} 
 			
 			return sellers;
